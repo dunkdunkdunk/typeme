@@ -1,5 +1,8 @@
-let input = document.getElementById("text")[1].innerHTML
-function submit() 
+let word = []
+
+function submit()
 {
-    document.getElementById("display").innerHTML = input[1]
+    word.push(' '+document.getElementById("text").value)
+    document.getElementById("display").innerHTML = word
 }
+
